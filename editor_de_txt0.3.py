@@ -58,5 +58,6 @@ def menu_principal(nome_arquivo):
             deletar_aluno(nome_arquivo)
         else:
             print("Comando inválido!!!\n")
-
-menu_principal(nome_arquivo)
+            
+if __name__ == "__main__":
+    menu_principal(nome_arquivo)
